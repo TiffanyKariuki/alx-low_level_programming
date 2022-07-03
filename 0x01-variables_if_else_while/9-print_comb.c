@@ -2,20 +2,20 @@
 
 /**
  * main - Entry point
- * Return : Always 0 (success)
+ * Return :0 
  */
 int main(void)
 {
 	int k
-	for (k=48;, k <=57; k++)
+	for (k = 48 ;, k < = 57 ; k++)
 	{
-	putchar(k);
-if(k < 57)
+	putchar (k);
+if (k < 57)
 {
-putchar(',');
-putchar(' ');
+putchar (',');
+putchar (' ');
 }
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
