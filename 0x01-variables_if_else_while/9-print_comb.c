@@ -1,5 +1,4 @@
- #include< stdlib.h >
-
+#include <iostream>
 /**
  * main - Entry point
  * Return :0 
