@@ -1,4 +1,4 @@
-#include "main .h"
+#include"main .h"
 
 /**
  * point_triangle - prints a triangle, followed by a newline
