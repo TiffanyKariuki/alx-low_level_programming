@@ -1,5 +1,6 @@
+#include "main.h"
+
 int _putchar(char c);
-#include "main .h"
 
 void reset_to_98(int *n);
 
