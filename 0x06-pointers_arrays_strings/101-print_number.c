@@ -6,6 +6,7 @@
  * @n: integer to print
  */
 
+void print_number(int n)
 {
 	int power;
 	int neg;
@@ -18,7 +19,7 @@
 	if (n < 0)
 
 	{
-		_putchar ('-');
+		_putchar('-');
 		neg = 1;
 
 	}
