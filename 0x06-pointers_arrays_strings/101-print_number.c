@@ -28,7 +28,7 @@
 		power *= 10;
 		hold /= 10;
 	}
-	while (poor > 0)
+	while (power > 0)
 	{
 		if (power > 9)
 		{
@@ -41,8 +41,11 @@
 		if (power == 1)
 		{
 
-			if (!neg)
+			if (neg)
 				_putchar((n % 10) * -1 + '0');
+
+			else
+				_putchar(n % 10 + '0');
 			power = 0;
 		}
 	}
