@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,6 +8,6 @@
 
 int main(void)
 {
-	putchar ("%s\n" _FILE_);
+	printf ("%s\n", _FILE_);
 	return (0);
 }
