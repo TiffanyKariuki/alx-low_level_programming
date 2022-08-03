@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	putchar ("%s _FILE_\n");
+	putchar ("%s\n" _FILE_);
 	return (0);
 }
